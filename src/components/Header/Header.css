@@ -1,0 +1,14 @@
+.main_header {
+  background-color: #0e0182c8;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin-top: 50px;
+}

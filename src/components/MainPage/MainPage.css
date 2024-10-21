@@ -1,0 +1,181 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ecf0f1;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  height: 100%;
+  align-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #3498db;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.start-button,
+.restart-button {
+  width: 200px;
+  margin: 20px auto;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #2ecc71;
+  color: white;
+}
+
+.restart-button:hover {
+  background-color: rgba(135, 58, 53, 0.927);
+}
+
+.start-button {
+  background-color: #0e0182c8;
+}
+
+.restart-button {
+  background-color: rgba(190, 58, 48, 0.927);
+}
+
+.start-button:hover {
+  background-color: #4238a4c8;
+}
+
+.restart-button {
+  margin-top: 16vh;
+}
+
+.answer-section button {
+  padding: 15px 30px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: #0e0182c8;
+  color: white;
+  margin-top: 10px;
+}
+
+.answer-section button:hover {
+  background-color: #4238a4c8;
+}
+
+.question-section {
+  margin-bottom: 20px;
+  max-width: 60vw;
+}
+
+.question-count {
+  font-size: 20px;
+  color: #555;
+}
+
+.question-text {
+  font-size: 20px;
+  margin-top: 4vh;
+}
+
+.question-difficulty {
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 0.5%;
+  margin-top: 10px;
+  margin-bottom: 5vh;
+}
+
+.score-container {
+  height: 80%;
+  width: 50%;
+}
+
+.answer-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  max-width: 60vw;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: #3498db;
+  color: #fff;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.timer {
+  font-size: 20px;
+  color: #555;
+}
+
+.scoreboard-container {
+  margin-top: 12vh;
+}
+
+.scoreboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scoreboard-table th,
+.scoreboard-table td {
+  border: 2px solid #d6d4d4;
+  padding: 8px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.scoreboard-table th {
+  background-color: #f2f2f2;
+}
+
+.score-container .restart-button {
+  margin-top: 13vh;
+}
+
+.scoreboard-heading {
+  background-color: #dedcdc;
+  border: 2px solid #d6d4d4;
+  border-bottom: none;
+  padding: 1%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
